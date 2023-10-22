@@ -5,6 +5,7 @@ import Quest from './pages/Quest/Quest';
 import NewHome from './pages/NewHome/NewHome';
 import Quests from './pages/Quests/Quests';
 import Missions from './pages/Missions/Missions';
+import ReleapProtocol from './pages/MissionReleap/MissionReleap';
 
 function App({ code }) {
   return (
@@ -14,6 +15,7 @@ function App({ code }) {
         <Route path="/anime" element={<Home />} />
         <Route path="/quests" element={<Quests />} />
         <Route path="/missions" element={<Missions />} />
+        <Route path="/releap-protocol" element={<ReleapProtocol />} />
         <Route path='/quest' element={<Quest title="Quest Title" description="Quest Description" reward="Quest Reward" />} />
         <Route path="404" element={<Page404 />} />
         <Route path="*" element={<Navigate to="/404" />} />
