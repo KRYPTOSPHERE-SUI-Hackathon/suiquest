@@ -74,6 +74,10 @@ To make this project real, we will need a grant of $150k:
   1. 1ST TECH STUDENT NETWORK (FRANCE)
   2. 10K FOLLOWERS LINKEDIN
 
+#### Additional ressources:
+- [Our NFT start contract](https://github.com/KRYPTOSPHERE-SUI-Hackathon/suiquest)
+- [IDE Modification](https://github.com/KRYPTOSPHERE-SUI-Hackathon/monaco-editor-sui.git)
+
   
 
 
