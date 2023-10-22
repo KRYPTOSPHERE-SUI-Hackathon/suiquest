@@ -81,6 +81,11 @@ To make this project real, we will need a grant of $150k:
       <summary>We also train a AI on Sui smart contracts that got pretty good resolt and be improve over time</summary>
       <img width="438" alt="Capture d’écran 2023-10-22 à 13 31 38" src="https://github.com/KRYPTOSPHERE-SUI-Hackathon/suiquest/assets/11545946/38ae8f6f-2431-4ff2-b0f3-3b24c5fc344d">
 </details>
+- <details>
+      <summary> Our back end compute sui smart contract code and detect errors</summary>
+      Our backend currently already permit to detect compilation error.
+      <img width="843" alt="Capture d’écran 2023-10-22 à 11 31 38" src="https://github.com/KRYPTOSPHERE-SUI-Hackathon/suiquest/assets/11545946/2ab8a384-1679-4f56-b782-85a5eebe1403">
+    </details>
 
   
 
