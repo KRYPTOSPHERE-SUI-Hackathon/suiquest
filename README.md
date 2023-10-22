@@ -6,6 +6,7 @@ Dapp live: https://suiquest.surge.sh/
 
 - <details>
       <summary> Back : https://www.youtube.com/embed/vxwfKJ5nGIs?si=nWlmnl6usE7xugv2</summary>
+      Our backend currently already permit to detect compilation error.
       <img width="843" alt="Capture d’écran 2023-10-22 à 11 31 38" src="https://github.com/KRYPTOSPHERE-SUI-Hackathon/suiquest/assets/11545946/2ab8a384-1679-4f56-b782-85a5eebe1403">
     </details>
 
