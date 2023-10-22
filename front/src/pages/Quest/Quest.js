@@ -1,43 +1,52 @@
-import React, { useRef, useEffect } from 'react';
-import MonacoEditor from 'react-monaco-editor';
-import styles from './Quest.module.css';
+import React, { useState, useRef, useEffect } from 'react';
+import styles from './Quest.module.css'; // Importing styles as a CSS module
 
-const Quest = ({ title, description, reward }) => {
-    const editorRef = useRef(null);
+const Quest = () => {
+    const [text, setText] = useState('');
+    const textareaRef = useRef(null);
+    const overlayRef = useRef(null);
 
-    const editorOptions = {
-        selectOnLineNumbers: true,
-        roundedSelection: false,
-        readOnly: false,
-        cursorStyle: 'line',
-        automaticLayout: true,
+const handleChange = (event) => {
+        const value = event.target.value;
+        setText(value);
     };
 
+    const getHighlightedText = (inputText) => {
+        // Use the actual class name from the CSS module
+        const highlightSpan = `<span class="${styles.highlight}">Move</span>`;
+    
+        // Replace the keyword with the span element
+        return inputText.replace(/\bMove\b/g, highlightSpan);
+    };
+
+    // Synchronize textarea scroll with the highlight overlay
+    const handleScroll = () => {
+        if (overlayRef.current && textareaRef.current) {
+            overlayRef.current.scrollTop = textareaRef.current.scrollTop;
+        }
+    };
+
+    // Update the overlay content after rendering
+    useEffect(() => {
+        if (overlayRef.current) {
+            overlayRef.current.innerHTML = getHighlightedText(text);
+        }
+    }, [text]);
+
     return (
-        <div className={styles.questContainer}>
-            <h1>{title}</h1>
-            <p>{description}</p>
-            <div className={styles.reward}>
-                <p>Reward: {reward}</p>
-            </div>
-            <div className={styles.IDE}>
-                <MonacoEditor
-                    ref={editorRef}
-                    height="600"
-                    language="javascript"
-                    theme="vs-dark"
-                    options={editorOptions}
-                    onChange={(newValue, e) => {
-                        // handle the change of the editor's content
-                        console.log('onChange', newValue, e);
-                    }}
-                    editorDidMount={(editor, monaco) => {
-                        // here is the editor's instance, and you get access to the monaco instance as well
-                        console.log('editorDidMount', editor);
-                        editorRef.current = editor; // Storing editor instance
-                    }}
-                />
-            </div>
+        <div className={styles.ideContainer}>
+            <div ref={overlayRef} className={styles.highlightsOverlay}></div>
+            <textarea
+                ref={textareaRef}
+                value={text}
+                onChange={handleChange}
+                onScroll={handleScroll}
+                className={styles.codeInput}
+                spellCheck="false"
+                autoCapitalize="none"
+                autoComplete="off"
+                autoCorrect="off"
+            />
         </div>
     );
 };
