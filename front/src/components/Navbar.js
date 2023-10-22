@@ -1,7 +1,7 @@
 const Navbar = () => {
     const logo = require('../images/SuiQuest_logo.png');
     return (<nav>
-        <a href="index.html">
+        <a href="/">
         <img className="navbar-logo" src={logo} alt="SuiQuest logo" />
         </a>
         <div className="navbar-right-side">
