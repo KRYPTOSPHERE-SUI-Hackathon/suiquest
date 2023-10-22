@@ -36,7 +36,7 @@ const Quests = () => {
     <>
       <nav>
         <a href="index.html">
-          <img className="navbar-logo" src="images/SuiQuest_logo.png" alt="SuiQuest logo" />
+          <img className="navbar-logo" src={require('../../images/SuiQuest_logo.png')} alt="SuiQuest logo" />
         </a>
         <div className="navbar-right-side">
           <a className="forum" href="mission.html">Missions</a>
