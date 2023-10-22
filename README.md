@@ -1,5 +1,7 @@
 ### Demo ###
 
+Dapp live: https://suiquest.surge.sh/
+
 - Front: https://www.youtube.com/embed/IL9ASML7Kp0?si=Y3KqfgLFG7QpX6yF
 
 - <details>
