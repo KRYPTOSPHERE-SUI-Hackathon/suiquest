@@ -1,0 +1,168 @@
+/****************** Initialisation de la page ******************/
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/****************************** fonts ******************************/
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/****************************** navbar ******************************/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+nav a {
+    font-size: 25px;
+    color: #9DBEFD;
+    font-family: 'Roboto-Medium';
+    text-decoration: none;
+}
+nav .forum {
+    margin-right: 80px;
+}
+nav .forum:hover {
+    color: #B18EFE;
+}
+.navbar-right-side{
+    margin-top: 20px;
+}
+.navbar-logo {
+    width: 250px;
+}
+.navbar-button {
+    padding: 15px;
+    border-radius: 25px;
+    color: #fff;
+    background: rgb(157,190,253);
+    background: radial-gradient(circle, rgba(157,190,253,1) 5%, rgba(177,142,254,1) 50%, rgba(77,59,251,1) 100%);
+}
+
+/****************************** Description page d'accueil ******************************/
+#description-accueil{
+    display: flex;
+    margin: 110px 120px;
+    font-family: 'Roboto-Medium';
+}
+#description-accueil h1{
+    font-size: 40px;
+    color: #4D3BFB;
+}
+#description-accueil p{
+    margin: 30px 0px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: #9DBEFD;
+}
+#description-accueil strong{
+    color: #B18EFE;
+}
+#description-accueil .navbar-button{
+    margin-top: 50px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.bateau{
+    margin-left: 250px;
+    width: 450px;
+}
+
+/****************************** title moving ******************************/
+#title-moving{
+    display: inline-block;
+    vertical-align: middle;
+}
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: #B18EFE;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #B18EFE; 
+	}
+}
+
+/****************************** Responsive ******************************/
+@media screen and (max-width: 1024px) {
+    #description-accueil h1{
+        font-size: 30px;
+    }
+    #description-accueil p{
+        font-size: 15px;
+    }
+    .bateau{
+        margin-left: 150px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /****************************** navbar ******************************/
+    nav{
+        margin: 20px 80px;
+    }
+    nav .forum {
+        margin-right: 30px;
+    }
+    .navbar-right-side{
+        margin-top: 20px;
+    }
+    .navbar-logo {
+        width: 200px;
+    }
+    .navbar-button {
+        padding: 10px;
+    }
+
+    /*************** Description page d'accueil *******************/
+    #description-accueil{
+        display: flex;
+        flex-direction: column;
+        margin: 110px 100px;
+    }
+    .bateau{
+        margin-left: 0px;
+        width: 600px;
+    }
+
+
+    #description-accueil h1{
+        font-size: 40px;
+        color: #4D3BFB;
+    }
+    #description-accueil p{
+        margin: 30px 0px;
+        padding-bottom: 25px;
+        font-size: 20px;
+        color: #9DBEFD;
+    }
+    #description-accueil strong{
+        color: #B18EFE;
+    }
+    #description-accueil .navbar-button{
+        margin-top: 50px;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    /* responsive not finish */
+}
+
+
+
+
