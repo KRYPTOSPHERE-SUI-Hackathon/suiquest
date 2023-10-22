@@ -1,5 +1,6 @@
 import React from 'react';
 import './quests.css';
+import Navbar from '../../components/Navbar';
 
 const Quests = () => {
   const levels = [
@@ -32,16 +33,7 @@ const Quests = () => {
 
   return (
     <>
-      <nav>
-        <a href="">
-          <img className="navbar-logo" src={require('../../images/SuiQuest_logo.png')} alt="SuiQuest logo" />
-        </a>
-        <div className="navbar-right-side">
-          <a className="forum" href="missions">Missions</a>
-          <a className="forum" href="">Forum</a>
-          <a className="navbar-button" href="quests">Start to learn</a>
-        </div>
-      </nav>
+      <Navbar />
 
       {levels.map((level, index) => (
         <section key={index} id="level-one">
