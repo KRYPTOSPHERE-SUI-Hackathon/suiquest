@@ -11,12 +11,13 @@ const handleChange = (event) => {
         setText(value);
     };
 
-    const getHighlightedText = (inputText) => {
+    const getHighlightedText = (inputText, key) => {
         // Use the actual class name from the CSS module
-        const highlightSpan = `<span class="${styles.highlight}">Move</span>`;
+        const highlightSpan = `<span class="${styles.highlight}">${key}</span>`;
     
         // Replace the keyword with the span element
-        return inputText.replace(/\bMove\b/g, highlightSpan);
+        let newText = inputText.replaceAll(key, highlightSpan);
+        return newText;
     };
 
     // Synchronize textarea scroll with the highlight overlay
@@ -29,7 +30,12 @@ const handleChange = (event) => {
     // Update the overlay content after rendering
     useEffect(() => {
         if (overlayRef.current) {
-            overlayRef.current.innerHTML = getHighlightedText(text);
+            let text = textareaRef.current.value;
+
+            for (const keyword of ['key', 'store']) {
+                text = getHighlightedText(text, keyword);
+            }
+            overlayRef.current.innerHTML = text;
         }
     }, [text]);
 
