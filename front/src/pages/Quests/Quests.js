@@ -10,7 +10,7 @@ const Quests = () => {
       title: 'Move: Beginner to Intermediate Smart Contracts',
       subTitle: 'Move ◈ Beginner ◈ Intermediate',
       description: 'Get involved in the exciting SUI Blockchain',
-      link: 'level-one.html',
+      link: 'quest',
     },
     {
       image: require('../../images/boat-level-2.png'),
@@ -19,7 +19,6 @@ const Quests = () => {
       title: 'Intermediate to Advanced Move Knowledge',
       subTitle: 'Move ◈ Intermediate ◈ Advanced',
       description: 'Deepen Your Understanding of SUI Blockchain',
-      link: '#',
     },
     {
       image: require('../../images/boat-level-3.png'),
@@ -28,14 +27,13 @@ const Quests = () => {
       title: 'Advanced Move: Get In-depth Knowledge',
       subTitle: 'Move ◈ Advanced',
       description: 'Become a Leader in the SUI Blockchain Community',
-      link: '#',
     },
   ];
 
   return (
     <>
       <nav>
-        <a href="index.html">
+        <a href="">
           <img className="navbar-logo" src={require('../../images/SuiQuest_logo.png')} alt="SuiQuest logo" />
         </a>
         <div className="navbar-right-side">
@@ -57,7 +55,14 @@ const Quests = () => {
             <h1>{level.title}</h1>
             <h2>{level.subTitle}</h2>
             <h3>{level.description}</h3>
-            <a className="start" href={level.link}>Start</a>
+            {
+                level.link ? (
+                    <a className="start" href={level.link}>Start</a>
+                ) : (
+                    <a className="start" onClick={()=>alert('Comming soon, you can already start first quest')}>Start</a>
+                )
+            }
+            
           </div>
         </section>
       ))}
