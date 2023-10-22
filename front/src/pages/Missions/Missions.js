@@ -27,21 +27,21 @@ const Missions = () => {
       title: "Nodeinfra",
       description: "The mission is to code a smart contract to ...",
       requirement: "NFT lvl1 required",
-      link: "/nodeinfra"
+      link: "#"
     },
     {
       imgSrc: require("../../images/chirp.webp"),
       title: "Chirp",
       description: "The mission is to code a smart contract to ...",
       requirement: "NFT lvl2 required",
-      link: "/chirp"
+      link: "#"
     },
     {
       imgSrc: require("../../images/supra.webp"),
       title: "Supra",
       description: "The mission is to code a smart contract to ...",
       requirement: "NFT lvl3 required",
-      link: "/supra"
+      link: "#"
     },
     {
       imgSrc: require("../../images/surf-wallet.webp"),
@@ -50,7 +50,6 @@ const Missions = () => {
       requirement: "NFT lvl5 required",
       link: "/surf-wallet"
     },
-    // add more missions here as necessary
   ];
 
   return (
