@@ -36,7 +36,7 @@ const LevelOne = () => {
       </section>
 
       <section className="bouton-next">
-        <div className="verify-code">Verify the code</div>
+        <div className="verify-code" style={{cursor: 'pointer'}}>Verify the code</div>
         <div className="back-bouton">Back</div>
         <h2>1/12</h2>
         <div className="next-bouton">Next</div>
