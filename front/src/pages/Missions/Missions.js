@@ -1,5 +1,6 @@
 import React from 'react';
 import './missions.css'; 
+import Navbar from '../../components/Navbar';
 
 const Missions = () => {
   const Mission = ({ imgSrc, title, description, requirement }) => (
@@ -54,14 +55,7 @@ const Missions = () => {
 
   return (
     <div>
-      <nav>
-        <a href="/"><img className="navbar-logo" src={require("../../images/SuiQuest_logo.png")} alt="SuiQuest logo" /></a>
-        <div className="navbar-right-side">
-          <a className="forum" href="/mission">Missions</a>
-          <a className="forum" href="/forum">Forum</a>
-          <a className="navbar-button" href="/quests">Start to learn</a>
-        </div>
-      </nav>
+      <Navbar />
 
       <section id="the-missions">
         {missions.map((mission, index) => (

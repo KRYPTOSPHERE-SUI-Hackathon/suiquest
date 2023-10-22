@@ -1,0 +1,58 @@
+.background-mission{
+    margin: 20px 160px;
+    padding-bottom: 5px;
+    background-color: #9DBEFD;
+    border-radius: 15px;
+    font-family: 'Roboto-Medium';
+}
+.releap-protocol-mission{
+    margin: 0px 50px;
+}
+.background-mission h1{
+    font-size: 32px;
+    color: #B18EFE;
+    text-shadow: 3px 3px 8px#fff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.background-mission p{
+    font-size: 20px;
+    color: #fff;
+}
+.description-activity{
+    margin: 0px 50px;
+}
+.description-activity h1{
+    margin-top: 60px;
+}
+.key-point-mission{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
+.key-point-mission img{
+    width: 80px;
+}
+.key-point-mission h2{
+    color: #4D3BFB;
+    font-size: 15px;
+}
+.calendar,.hourly-paid,.required{
+    display: flex;
+    align-items: center;
+}
+.activity-on-this-mission strong{
+    font-size: 20px;
+    color: #4D3BFB;
+}
+.apply-bouton{
+    margin: 50px 0px;
+    padding: 10px;
+    color: #fff;
+    background-color: #4D3BFB;
+    width: fit-content;
+    border-radius: 15px;
+}
+.description-activity a{
+    text-decoration: none;
+}
