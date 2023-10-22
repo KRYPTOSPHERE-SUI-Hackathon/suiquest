@@ -8,8 +8,8 @@ function App({ code }) {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/newhome" element={<NewHome />} />
+        <Route path="/" element={<NewHome />} />
+        <Route path="/anime" element={<Home />} />
         <Route path='/quest' element={<Quest title="Quest Title" description="Quest Description" reward="Quest Reward" />} />
         <Route path="404" element={<Page404 />} />
         <Route path="*" element={<Navigate to="/404" />} />

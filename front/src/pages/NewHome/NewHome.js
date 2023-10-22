@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 // Import images
-import logo from './images/SuiQuest_logo.png';
-import boat from './images/boat-level-1.png';
+import logo from '../../images/SuiQuest_logo.png';
+import boat from '../../images/boat-level-1.png';
 import TypingEffectComponent from '../../components/typingEffect';
 
 class NewHome extends React.Component {
