@@ -1,8 +1,8 @@
 ### Demo ###
 
-- Front: <iframe width="560" height="315" src="https://www.youtube.com/embed/IL9ASML7Kp0?si=Y3KqfgLFG7QpX6yF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- Front: https://www.youtube.com/embed/IL9ASML7Kp0?si=Y3KqfgLFG7QpX6yF
 
-- Back : <iframe width="560" height="315" src="https://www.youtube.com/embed/vxwfKJ5nGIs?si=nWlmnl6usE7xugv2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- Back : https://www.youtube.com/embed/vxwfKJ5nGIs?si=nWlmnl6usE7xugv2
 
 ### SUIQUEST ###
 
