@@ -24,7 +24,7 @@ const Quest = ({ title, description, reward }) => {
                 <MonacoEditor
                     ref={editorRef}
                     height="600"
-                    language="javascript"
+                    language="sui"
                     theme="vs-dark"
                     options={editorOptions}
                     onChange={(newValue, e) => {
