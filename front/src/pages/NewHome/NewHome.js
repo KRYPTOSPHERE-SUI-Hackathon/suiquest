@@ -15,9 +15,9 @@ class NewHome extends React.Component {
             <img className="navbar-logo" src={logo} alt="SuiQuest logo" />
           </a>
           <div className="navbar-right-side">
-            <a className="forum" href="mission.html">Missions</a>
-            <a className="forum" href="forum.html">Forum</a>
-            <a className="navbar-button" href="quests.html">Start to learn</a>
+            <a className="forum" href="mission">Missions</a>
+            <a className="forum" href="">Forum</a>
+            <a className="navbar-button" href="quests">Start to learn</a>
           </div>
         </nav>
 
@@ -30,7 +30,7 @@ class NewHome extends React.Component {
               in <strong>Move</strong>, the language used by the <strong>Sui blockchain</strong>,<br /> 
               by completing quests throughout the learning journey.
             </p>
-            <a className="navbar-button" href="quests.html">Start to learn</a>
+            <a className="navbar-button" href="quests">Start to learn</a>
           </div>
 
           <img className="bateau" src={boat} alt="Boat" />
