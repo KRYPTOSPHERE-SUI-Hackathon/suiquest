@@ -2,6 +2,8 @@
 
 Dapp live: https://suiquest.surge.sh/
 
+![https://suiquest.surge.sh/](https://github.com/KRYPTOSPHERE-SUI-Hackathon/suiquest/assets/11545946/ad6cb46c-5a82-41bc-b173-f4e359561247)
+
 - Front: https://www.youtube.com/embed/IL9ASML7Kp0?si=Y3KqfgLFG7QpX6yF
 
 - <details>
