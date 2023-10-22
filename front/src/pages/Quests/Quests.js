@@ -39,9 +39,9 @@ const Quests = () => {
           <img className="navbar-logo" src={require('../../images/SuiQuest_logo.png')} alt="SuiQuest logo" />
         </a>
         <div className="navbar-right-side">
-          <a className="forum" href="mission.html">Missions</a>
-          <a className="forum" href="forum.html">Forum</a>
-          <a className="navbar-button" href="quests.html">Start to learn</a>
+          <a className="forum" href="missions">Missions</a>
+          <a className="forum" href="">Forum</a>
+          <a className="navbar-button" href="quests">Start to learn</a>
         </div>
       </nav>
 
