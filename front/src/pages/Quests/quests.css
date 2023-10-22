@@ -1,0 +1,80 @@
+/**************** level1 *****************/
+#level-one{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 150px;
+    background-color: #9DBEFD;
+    border-radius: 25px;
+    color: #fff;
+}
+.level-one-image{
+    width: 300px;
+    margin-bottom: 70px;
+}
+
+.pourcentage-progress-bar{
+    font-family: 'Roboto-Medium';
+    font-size: 25px;
+    color: #4D3BFB;
+    margin-top: 25px;
+    margin-left: 700px;
+}
+.progress-bar-container {
+    position: relative;
+    width: 750px;
+    height: 10px; 
+}
+.progress-bar-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.progress-bar-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff; 
+    border-radius: 15px;
+}
+.progress-bar-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    background-color: #007bff; 
+    border-radius: 15px;
+}
+
+#level-one h1{
+    font-family: 'Roboto-Medium';
+    font-size: 35px;
+    color: #B18EFE;
+    margin: 10px 0px;
+}
+#level-one h2{
+    font-family: 'Roboto-Medium';
+    color: #4D3BFB;
+    font-size: 25px;
+}
+#level-one h3{
+    font-family: 'Roboto-Medium';
+    font-size: 20px;
+    margin: 5px 0px 25px 0px;
+}
+.start{
+    background-color: #4D3BFB;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 5px 35px;
+    text-decoration: none;
+    font-family: 'Roboto-Medium';
+}
+
