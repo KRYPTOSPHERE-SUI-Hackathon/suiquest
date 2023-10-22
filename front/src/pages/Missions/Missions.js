@@ -48,7 +48,7 @@ const Missions = () => {
       title: "Surf Wallet",
       description: "The mission is to code a smart contract to ...",
       requirement: "NFT lvl5 required",
-      link: "/surf-wallet"
+      link: "#"
     },
   ];
 
