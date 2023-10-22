@@ -76,7 +76,9 @@ To make this project real, we will need a grant of $150k:
 
 #### Additional ressources:
 - [Our NFT start contract](https://github.com/KRYPTOSPHERE-SUI-Hackathon/suiquest)
-- [IDE Modification](https://github.com/KRYPTOSPHERE-SUI-Hackathon/monaco-editor-sui.git)
+- [IDE Modification](https://github.com/KRYPTOSPHERE-SUI-Hackathon/monaco-editor-sui.git) and others implementation on our branchs
+- We also train a AI on Sui smart contract
+<img width="438" alt="Capture d’écran 2023-10-22 à 13 31 38" src="https://github.com/KRYPTOSPHERE-SUI-Hackathon/suiquest/assets/11545946/38ae8f6f-2431-4ff2-b0f3-3b24c5fc344d">
 
   
 
