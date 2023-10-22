@@ -11,7 +11,7 @@ const Quests = () => {
       title: 'Move: Beginner to Intermediate Smart Contracts',
       subTitle: 'Move ◈ Beginner ◈ Intermediate',
       description: 'Get involved in the exciting SUI Blockchain',
-      link: 'quest',
+      link: 'level-one',
     },
     {
       image: require('../../images/boat-level-2.png'),
